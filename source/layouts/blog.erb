@@ -1,0 +1,34 @@
+<% wrap_layout :layout do %>
+<div class="row">
+	<article class="span8">
+		<h1 id="top"><%= data.page.title %></h1>
+		<p>Author: <%= data.page.author %>	</p>
+		<p><i class="icon-calendar"> </i><%= data.page.date %><span class="spacer20"></span><i class="icon-tags"> </i><%= data.page.tags %></p>
+		<hr>
+		<%= yield %>
+	</article>
+	<aside class="span3">
+		<h2>Aktuelle Einträge</h2>
+	    	<ol>
+	        <% blog.articles[0...10].each do |article| %>
+	            <li><a href="<%= article.url %>"><%= article.title %></a> </li>
+	        <% end %>
+	      </ol>
+	
+	      <h2>Tags</h2>
+	      <ol>
+	        <% blog.tags.each do |tag, articles| %>
+	          <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
+	        <% end %>
+	      </ol>
+	      
+		  <h2>Archiv</h2>
+	      <ol>
+	        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+	          <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
+	        <% end %>
+	      </ol>
+
+	  </aside>
+</div>
+<% end %>
