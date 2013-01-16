@@ -5,7 +5,7 @@
 		<%= yield %>
 	</article>
 	<aside class="span3">
-		<h2>Recent Articles</h2>
+		<h2>Aktuelle Artikel</h2>
 	    	<ol>
 	        <% blog.articles[0...10].each do |article| %>
 	            <li><a href="<%= article.url %>"><%= article.title %></a></li>
@@ -19,7 +19,7 @@
 	        <% end %>
 	      </ol>
 	      
-		  <h2>By Year</h2>
+		  <h2>Archiv</h2>
 	      <ol>
 	        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
 	          <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
