@@ -128,7 +128,7 @@ title: Verein
       <h2>Mitgliedschaft</h2>
       <div class="row">
         <div class="span9">
-          <form>
+          <form id="frmAnmeldung">
             <fieldset>
               <legend>Anmeldung</legend>
               <label class="checkbox">
@@ -140,15 +140,15 @@ title: Verein
               <label class="checkbox">
                 <input type="checkbox">Ich interessiere mich für ein spezielles Angebot
               </label>
-              <input class="input-block-level" type="text" placeholder="Name">
-              <input class="input-block-level" type="text" placeholder="Vorname">
-              <input class="input-block-level" type="text" placeholder="Adresse">
-              <input class="input-block-level" type="text" placeholder="PLZ">
-              <input class="input-block-level" type="text" placeholder="Ort">
-              <input class="input-block-level" type="text" placeholder="Telefon">
-              <input class="input-block-level" type="text" placeholder="Email">
+              <input id="Nachname" name="Nachname" class="input-block-level" type="text" placeholder="Name">
+              <input id="Vorname" name="Vorname" class="input-block-level" type="text" placeholder="Vorname">
+              <input id="Adresse" name="Adresse" class="input-block-level" type="text" placeholder="Adresse">
+              <input id="PLZ" name="PLZ" class="input-block-level" type="text" placeholder="PLZ">
+              <input id="Ort" name="Ort" class="input-block-level" type="text" placeholder="Ort">
+              <input id="Telefon"  name="Telefon" class="input-block-level" type="text" placeholder="Telefon">
+              <input id="Email" name="Email" class="input-block-level" type="text" placeholder="Email">
               <label>Bemerkungen</label>
-              <textarea class="input-block-level" rows="5"></textarea>
+              <textarea id="Bemerkungen" id="Bemerkungen" class="input-block-level" rows="5"></textarea>
               <button type="submit" class="btn">Submit</button>
             </fieldset>
            </form>
@@ -161,21 +161,21 @@ title: Verein
       <h2>Kontakt</h2>
       <div class="row">
         <div class="span9">
-          <form>
+          <form id="frmKontakt">
             <fieldset>
               <legend>Anmeldung</legend>
-              <input class="input-block-level" type="text" placeholder="Name">
-              <input class="input-block-level" type="text" placeholder="Vorname">
-              <input class="input-block-level" type="text" placeholder="Adresse">
-              <input class="input-block-level" type="text" placeholder="PLZ">
-              <input class="input-block-level" type="text" placeholder="Ort">
-              <input class="input-block-level" type="text" placeholder="Telefon">
-              <input class="input-block-level" type="text" placeholder="Email">
+              <input id="Nachname" name="Nachname" class="input-block-level" type="text" placeholder="Name">
+              <input id="Vorname" name="Vorname" class="input-block-level" type="text" placeholder="Vorname">
+              <input id="Adresse" name="Adresse" class="input-block-level" type="text" placeholder="Adresse">
+              <input id="PLZ" name="PLZ" class="input-block-level" type="text" placeholder="PLZ">
+              <input id="Ort" name="Ort" class="input-block-level" type="text" placeholder="Ort">
+              <input id="Telefon" name="Telefon" class="input-block-level" type="text" placeholder="Telefon">
+              <input id="Email" name="Email" class="input-block-level" type="text" placeholder="Email">
               <label>Bemerkungen</label>
-              <textarea class="input-block-level" rows="5"></textarea><br>
+              <textarea id="Bemerkungen" name="Bemerkungen" class="input-block-level" rows="5"></textarea><br>
               <button type="submit" class="btn">Submit</button>
             </fieldset>
-
+		</form>
         </div>
       </div>
       <a href="#top"> zum Anfang</a>
@@ -194,28 +194,32 @@ title: Verein
             </thead>
             <tbody>
               <tr>
-                <td>28.01.2012 - 12.02.2012</td>
-                <td>Sportferien</td>
+                <td>11.02.2013</td>
+                <td>Probebeginn im Spittelsaal - Musical "Der König in der Kiste"</td>
               </tr>
               <tr>
-                <td>25.02.2012</td>
+                <td>16.02.2012</td>
                 <td>Kinderfasnacht</td>
               </tr>
               <tr>
-                <td>22.03.2012 - 24.03.2012</td>
-                <td>MFM Kurs</td>
+                <td>02.03.2013</td>
+                <td>Jubiläumsanlass 10 Jahre MusikErlebnis 10-14 Uhr</td>
               </tr>
               <tr>
-                <td>24.03.2012</td>
-                <td>Elternplausch</td>
+                <td>31.05.2013</td>
+                <td>Generalversammlung</td>
               </tr>
               <tr>
-                <td>27.03.2012 - 29.03.2012</td>
-                <td>Kinderkleiderbörse</td>
+                <td>03.06.2013</td>
+                <td>Musical "Der König in der Kiste" 19:00 im Spittelsaal</td>
               </tr>
               <tr>
-                <td>31.03.2012</td>
-                <td>Waldsamstag Waldspielgruppe Roti Zipfelmütze</td>
+                <td>28.06.2013 - 29.06.2013</td>
+                <td>Küttiger Jugendfest</td>
+              </tr>
+              <tr>
+                <td>04.11.2013</td>
+                <td>Sitzung Arbeitsgruppen-LeiterInnen</td>
               </tr>
             </tbody>
           </table>
