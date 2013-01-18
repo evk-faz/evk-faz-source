@@ -47,27 +47,23 @@ per_page: 10
     </div>
 
     <div class="row">
-      <div class="span8">
+      <section class="span9">
       <h3>News</h3>
-      <h4>Chinderkafi</h4>
-      <p>Das Chinderkafi findet während der Frühlingsferien 2012 nicht statt. Start nach den Ferien ist der Montag 23. April jeweils jede zweite Woche.
-
-Infos auf der AG Seite.</p>
-      <hr />
-      <h4>Kinderkleider- und Spielzeugbörse</h4>
-      <p>Kinderkleider und Spielzeugbörse
-
-27. bis 29. März 2012
-Im Spittel (Schule Dorf), Küttigen</p>
-      </div>
-      <div class="Span4">
-      <h3>Verein</h3>
-      <ul>
-        <li>Mitgliedschaft</li>
-        <li>Jahresprogramm</li>
+      <% blog.articles[0...5].each do |article| %>
+      	<article>
+	      	<h4><a href="<%= article.url %>"><%= article.title %></a> <i class="icon-calendar"> </i><time><%= article.date.strftime('%d.%m.%Y') %></time></h4>
+		    <%= article.summary %>
+		    <a href="<%= article.url %>">zum Artikel</a>
+	   </article>
+	   <hr>
+	  <% end %>      
+      </section>
+      <aside class="span3">
+      <h3>Top Links</h3>
+      <ul class="unstyled">
+	      <li><i class="icon-bookmark"></i> <a href="/verein/#Mitgliedschaft">Mitglied werden</a></li>
       </ul>
-      </div>
-    
+      </aside>
     </div>
 
 
