@@ -31,6 +31,10 @@ margin: 12px 0 30px;
 height: 0;
 }
 
+.h1-small {
+	font-size:30px;
+}
+
 .dotted {
 	border: dashed #DDD;
 	border-width: 1px 0 0;
