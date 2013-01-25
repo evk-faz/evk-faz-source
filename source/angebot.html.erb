@@ -112,7 +112,7 @@ title: Angebot
 					  <i class="icon-file"></i><%= link_to 'Merkblatt (pdf)', 'download/babysitterb_merkblatt_1008.pdf' %>
 			      </p>
 			      <hr class="dotted">
-			      <dd class="dl-horizontal">
+			      <!--<dd class="dl-horizontal">
 				      <dt>Fiona</dt>
 				      <dd><strong>Alter: </strong>15</dd>
 				      <dd><strong>Babysitterkurs: </strong>Ja</dd>
@@ -120,16 +120,16 @@ title: Angebot
 				      <dd><strong>Hobbies: </strong>Reiten, Tanzen, Kinder hüten</dd>
 				      <dd>Mir würde vor allem Montagabend und Dienstagabend gut gehen. 
 			          (Ich suche eine Familie, wo ich mehr oder weniger regelmässig hüten könnte)</dd>
-			      </dd>
-			      <!--
-			      <table class="table table-bordered">
+			      </dd>-->
+			      <table class="table table-bordered footable">
 		            <thead>
 		              <tr>
-		                <th>Name</th>
+		                <th data-class="expand">Name</th>
 		                <th>Alter</th>
-		                <th>Babysitterkurs</th>
-		                <th>Geschwister</th>
-		                <th>Hobbies</th>
+		                <th data-hide="phone">Babysitterkurs</th>
+		                <th data-hide="phone">Geschwister</th>
+		                <th data-hide="phone">Hobbies</th>
+		                <th data-hide="phone,tablet">Bemerkungen</th>
 		              </tr>
 		            </thead>
 		            <tbody>
@@ -139,12 +139,7 @@ title: Angebot
 		                <td>Ja</td>
 		                <td>2</td>
 		                <td>Reiten, Tanzen, Kinder hüten</td>
-		              </tr>
-		              <tr>
-		              	<td  colspan="5">
-			              	<i>Mir würde vor allem Montagabend und Dienstagabend gut gehen. 
-			              	(Ich suche eine Familie, wo ich mehr oder weniger regelmässig hüten könnte)</i>
-		              	</td>
+		                <td>Mir würde vor allem Montagabend und Dienstagabend gut gehen. (Ich suche eine Familie, wo ich mehr oder weniger regelmässig hüten könnte)</td>
 		              </tr>
 		              <tr>
 		                <td>Lara</td>
@@ -152,12 +147,7 @@ title: Angebot
 		                <td>Ja</td>
 		                <td>2</td>
 		                <td>Freunde, Zumba, FC Küttigen</td>
-		              </tr>
-		              <tr>
-		              	<td  colspan="5">
-			              	<i>Hüten kann ich am Mittwoch Nachmittag, am Freitag Abend, am Samstag und am Sonntag 
-			              	(nach Anfrage auch noch an anderen Tagen).</i>
-			            </td>
+		                <td>Hüten kann ich am Mittwoch Nachmittag, am Freitag Abend, am Samstag und am Sonntag (nach Anfrage auch noch an anderen Tagen).</td>
 		              </tr>
 		              <tr>
 		                <td>Laura</td>
@@ -165,12 +155,7 @@ title: Angebot
 		                <td>Ja</td>
 		                <td>2</td>
 		                <td>Voleyball, Zeichnen, Lesen</td>
-		              </tr>
-		              <tr>
-		              	<td  colspan="5">
-			              	<i>Ich hüte gerne weil ich mit Kindern gut umgehen kann und weil ich Kinder mag. 
-			              	Am besten zum hüten geht es mir am Mittwochnachmittag und Mittwochabend, Samstag und Sonntag.</i>
-			            </td>
+		                <td>Ich hüte gerne weil ich mit Kindern gut umgehen kann und weil ich Kinder mag. Am besten zum hüten geht es mir am Mittwochnachmittag und Mittwochabend, Samstag und Sonntag.</td>
 		              </tr>
 		              <tr>
 		                <td>Lisa</td>
@@ -178,26 +163,17 @@ title: Angebot
 		                <td>Ja</td>
 		                <td>2</td>
 		                <td>Unihockey, Lesen, Freunde, Städteausflüge, Salsatanzen</td>
+		                <td>Generell kann ich jeden Abend hüten, ausser Montags und Freitags, da ich dann jeweils Training habe.</td>
 		              </tr>
-		              <tr>
-		              	<td  colspan="5">
-			              	<i>Generell kann ich jeden Abend hüten, ausser Montags und Freitags, da ich dann jeweils 
-			              	Training habe.</i>
-			            </td>
-		              </tr>
+			              
 		              <tr>
 		                <td>Jennifer</td>
 		                <td>13</td>
 		                <td>Ja</td>
 		                <td>1</td>
 		                <td>Freunde , Tanzen, Geräteturnen, Kinder hüten</td>
-		              </tr>
-		              <tr>
-		              	<td  colspan="5">
-			              	<i>Ich hüte gerne Kinder weil ich mit Kindern gut umgehen kann .Ich habe auch viel 
-			              	Erfahrung damit . Ich kann am Dienstag Abend , am Mittwoch Nachmittag , Freitag von 
-			              	16.00 Uhr , Samstag und Sonntags den ganzen Tag.</i>
-			            </td>
+		                <td>Ich hüte gerne Kinder weil ich mit Kindern gut umgehen kann .Ich habe auch viel Erfahrung damit . Ich kann am Dienstag Abend , 
+		                am Mittwoch Nachmittag , Freitag von 16.00 Uhr , Samstag und Sonntags den ganzen Tag.</td>
 		              </tr>
 		              <tr>
 		                <td>Lea</td>
@@ -205,15 +181,10 @@ title: Angebot
 		                <td>Ja</td>
 		                <td>1</td>
 		                <td>Volleyball, Lesen, Kinder hüten</td>
-		              </tr>
-		              <tr>
-		              	<td  colspan="5">
-			              	<i>Hüten kann ich Montag und Donnerstag ab 17.00, Mittwoch ab 15.00, 
-			              	Freitag ab 19.00, Samstag und Sonntag.</i>
-			            </td>
+		                <td>Hüten kann ich Montag und Donnerstag ab 17.00, Mittwoch ab 15.00, Freitag ab 19.00, Samstag und Sonntag.</td>
 		              </tr>
 		            </tbody>
-		          </table>-->
+		          </table>
 			      <i class="icon-arrow-up"></i><a href="#top"> zum Anfang</a>
 			      <hr>
 			  </section><!-- end section -->
