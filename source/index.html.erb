@@ -24,18 +24,31 @@ per_page: 10
 			  <!-- Carousel items -->
 			  <div class="carousel-inner">
 			    <div class="active item">		    	
-			    	<%= image_tag 'Start_Mittagstisch.jpg' %>
+			    	<%= image_tag 'Start_Mittagstisch.jpg', :alt => "Mittagstisch Werbung" %>
+			    	<div class="carousel-caption">
+				    	<h4>Mittagstisch</h4>
+				    	<p>Der Elternverein, unterstützt von der Gemeinde Küttigen-Rombach, führt den Mittagstisch für Kindergarten- und Schulkinder mit kompetenter Betreuung, 
+				    	ausgewogener Ernährung und idealer Infrastruktur.</p>
+				    </div>
 			    </div>
 			    <div class="item">
-				    <%= image_tag 'kinderfasnacht_start.jpg' %>
+				    <%= image_tag 'kinderfasnacht_start.jpg', :alt => "Kinderfasnacht Werbung" %>
+				    <div class="carousel-caption">
+						<h4>Kinderfasnacht</h4>
+						<p>Die Arbeitsgruppe Fasnacht organisiert alljährlich einen bunten Umzug für kleine und grosse FasnächtlerInnen durch Küttigen.</p>
+					</div>
 			    </div>
 			    <div class="item">
-				    <%= image_tag 'waldspielgruppe_start.jpg' %>
+				    <%= image_tag 'waldspielgruppe_start.jpg', :alt => "Waldspielgruppe Werbung" %>
+				    <div class="carousel-caption">
+					    <h4>Waldspielgruppe</h4>
+					    <p>Sehen, Hören, Riechen, Fühlen und Tasten ebenso wie die Fein- und Grobmotorik. Auch für Fantasie und Kreativität bietet der Wald ein ideales Lernfeld. Die Abenteuerlust kann gelebt werden.</p>
+					</div>
 			    </div>
 			  </div>
 			  <!-- Carousel nav -->
-			  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-			  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			  <a class="carousel-control left" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">&lsaquo;</a>
+			  <a class="carousel-control right" data-slide="next" onclick="$('#myCarousel').carousel('next')">&rsaquo;</a>
 			</div>
       </div>
     </div>
