@@ -1,5 +1,5 @@
 ---
-title: Family-Days-Raiffeisenbank-Erlinsbach
+title: Family Days Raiffeisenbank-Erlinsbach
 date: 2013-04-12 09:36 +00:00
 tags: externe
 author: Oliver

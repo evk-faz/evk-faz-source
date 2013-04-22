@@ -1,5 +1,5 @@
 ---
-title: Boerse-03-2013
+title: Börse 03/2013
 date: 2013-02-04 20:12 +00:00
 tags: angebot, börse
 author: Oliver

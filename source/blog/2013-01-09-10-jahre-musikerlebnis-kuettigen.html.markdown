@@ -1,5 +1,5 @@
 ---
-title: 10-Jahre-MusikErlebnis-Kuettigen
+title: 10 Jahre MusikErlebnis Küttigen
 date: 2013-01-09 20:45 +00:00
 tags: MusikErlebnis, Arbeitsgruppen, example
 author: Oliver

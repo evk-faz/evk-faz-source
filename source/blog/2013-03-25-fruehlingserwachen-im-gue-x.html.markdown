@@ -1,5 +1,5 @@
 ---
-title: Fruehlingserwachen-im-Gue-x
+title: Fruehlingserwachen im Gü-x
 date: 2013-03-25 14:56 +00:00
 tags: externe
 author: Oliver

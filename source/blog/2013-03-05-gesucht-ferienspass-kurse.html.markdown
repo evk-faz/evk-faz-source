@@ -1,5 +1,5 @@
 ---
-title: Gesucht-FerienSpass-Kurse
+title: Gesucht FerienSpass Kurse
 date: 2013-03-05 15:56 +00:00
 tags: FerienSpass, Angebote
 author: Oliver

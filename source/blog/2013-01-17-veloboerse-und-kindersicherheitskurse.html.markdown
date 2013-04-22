@@ -1,5 +1,5 @@
 ---
-title: Veloboerse-und-Kindersicherheitskurse
+title: Velobörse und Kindersicherheitskurse
 date: 2013-01-17 07:40 +00:00
 tags: externe, kurse
 author: Oliver

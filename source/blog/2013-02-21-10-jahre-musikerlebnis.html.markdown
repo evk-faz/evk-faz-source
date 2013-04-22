@@ -1,5 +1,5 @@
 ---
-title: 10-Jahre-MusikErlebnis
+title: 10 Jahre MusikErlebnis
 date: 2013-02-21 19:21 +00:00
 tags: MusikErlebnis, Angebot
 author: Oliver

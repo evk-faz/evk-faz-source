@@ -1,5 +1,5 @@
 ---
-title: 10-Jahre-Musikerlebnis-Jubilaeum
+title: 10 Jahre Musikerlebnis Jubiläum
 date: 2013-03-04 19:43 +00:00
 tags: MusikErlebnis, Arbeitsgruppen, example
 author: Oliver

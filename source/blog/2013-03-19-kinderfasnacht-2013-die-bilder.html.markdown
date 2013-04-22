@@ -1,5 +1,5 @@
 ---
-title: Kinderfasnacht-2013-Die-Bilder
+title: Kinderfasnacht 2013 die Bilder
 date: 2013-03-19 15:55 +00:00
 tags: Kinderfasnacht
 author: Oliver
