@@ -1,5 +1,5 @@
 ---
-title: Der-Köenig-in-der-Kiste
+title: Der Köenig in der Kiste
 date: 2013-06-05 18:41 +00:00
 tags: MusikErlebnis, Arbeitsgruppen
 author: Oliver
