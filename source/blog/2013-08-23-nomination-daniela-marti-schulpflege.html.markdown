@@ -1,5 +1,5 @@
 ---
-title: Nomination Daniel Marti für die Schulpflege
+title: Nomination Daniela Marti für die Schulpflege
 date: 2013-08-23 08:16 +00:00
 tags: Schulpflege, Verein
 author: Oliver Grimm
