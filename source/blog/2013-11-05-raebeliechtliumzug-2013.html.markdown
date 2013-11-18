@@ -1,9 +1,10 @@
 ---
-title: Räbeliechtliumzug 2013
+title: 	Raebeliechtliumzug 2013
 date: 2013-11-05 14:55 +00:00
 tags: Raebelichtliumzug
 author: Brigitte
 ---
+
 **Räbeliechtli-Umzug der Kindergartenkinder und der Waldspielgruppe**
 
 Wann:		15. November 2013 
