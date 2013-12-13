@@ -9,6 +9,7 @@ metadesc: Der Elternverein Küttigen-Rombach bietet ein vielfältiges Angebot f�
 			  <li><a href="#Adventsfenster">Adventsfenster</a></li>
 		  	  <li><a href="#Babysitterboerse">Babysitterbörse</a></li>
 		  	  <li><a href="#Chinderkafi">Chinderkafi</a></li>
+		  	  <li><a href="#ElternInfos">ElternInfos</a></li>
 		  	  <li><a href="#Kinderfasnacht">Kinderfasnacht</a></li>
 		  	  <li><a href="#Boerse">Börse</a></li>
 		  	  <li><a href="#Kinderrechtstag">Kinderrechtstag</a></li>
@@ -219,10 +220,46 @@ metadesc: Der Elternverein Küttigen-Rombach bietet ein vielfältiges Angebot f�
 			      <i class="icon-arrow-up"></i><a href="#top"> zum Anfang</a>
 				  <hr>
 			  </section>
+			  <section id="ElternInfos">
+				  <h2>ElternInfos</h2>
+				  <div class="media">
+					  <div class="pull-right">
+						  <%= image_tag 'seiten/schule.gif', :class => "media-object", :alt => "Chinderkafi Logo" %>
+					  </div>
+					  <div class="media-body">
+						  <p>				  
+							  Der EVK hat neu eine Vortragsreihe mit der Schule Küttigen gestartet. Informationen zu den Referaten können nachfolgend heruntergeladen werden.
+						  </p>						  
+					  </div>						  
+				  </div>
+				  <hr class="dotted">
+				  <table class="table table-bordered footable">
+		            <thead>
+		              <tr>
+		                <th data-class="expand">Vortrag</th>
+		                <th>Datum</th>
+		                <th data-hide="phone">Downloads</th>
+		              </tr>
+		            </thead>
+		            <tbody>
+		              <tr>
+		                <td>Mobbing in der Schule</td>
+		                <td>18.11.2013</td>
+		                <td>
+		                <%= link_to 'Ausgrenzung und Mobbing in Schulpraxis', 'download/referate/Ausgrenzung_und_Mobbing_in_Schulpraxis.pdf' %><br>
+		                <%= link_to 'Mobbing Eltern', 'download/referate/Mobbing_Eltern2.pdf' %>
+		                </td>
+		              </tr>
+		            </tbody>
+		          </table>
+
+			      <i class="icon-arrow-up"></i><a href="#top"> zum Anfang</a>
+				  <hr>
+			  </section>
 			  <section id="Kinderfasnacht">
 				  <h2>Kinderfasnacht</h2>
 				  <div class="media">
-					  <div class="pull-right">
+					  <div class="pull-left">
 						  <%= image_tag 'seiten/kinderfasnacht.jpg', :class => "media-object", :alt => "Kinderfasnacht Titel Bild" %>
 					  </div>
 					  <div class="media-body">
@@ -261,7 +298,7 @@ metadesc: Der Elternverein Küttigen-Rombach bietet ein vielfältiges Angebot f�
 			  <section id="Boerse"><!-- start section -->
 				  <h2>Kleider und Spielzeugbörse</h2>
 				  <div class="media">
-					  <div class="pull-left">
+					  <div class="pull-right">
 						  <%= image_tag 'seiten/boerse.jpg', :class => "media-object", :alt => "Kinderkleiderbörse Bild" %>
 					  </div>
 					  <div class="media-body">
