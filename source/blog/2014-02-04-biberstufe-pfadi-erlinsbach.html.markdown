@@ -1,5 +1,5 @@
 ---
-title: Biberstufe-Pfadi-Erlinsbach
+title: Biberstufe Pfadi Erlinsbach
 date: 2014-02-04 19:25 +00:00
 tags: externe
 author: Oliver
