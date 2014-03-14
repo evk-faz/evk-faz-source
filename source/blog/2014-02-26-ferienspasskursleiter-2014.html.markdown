@@ -1,7 +1,7 @@
 ---
 title: FerienSpassKursLeiter gesucht!
 date: 2014-02-26 21:02 +00:00
-tags: Angebot
+tags: Angebot, FerienSpass
 author: Manuela
 ---
 
