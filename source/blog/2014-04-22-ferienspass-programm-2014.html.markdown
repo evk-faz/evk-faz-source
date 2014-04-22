@@ -5,7 +5,7 @@ tags: FerienSpass
 author: Manuela
 ---
 
-Das bunte [Angebot FerienSpass 2014](download/Angebot_FerienSpass_2014.pdf) wird gerade über die Lehrkräfte an die Kinder verteilt.     
+Das bunte [Angebot FerienSpass 2014](/download/Angebot_FerienSpass_2014.pdf) wird gerade über die Lehrkräfte an die Kinder verteilt.     
     
 Anmeldeschluss online Sonntag, 11. Mai 2014    
     
