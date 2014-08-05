@@ -1,7 +1,7 @@
 ---
 title: Kleider Spielzeugbörse 03-14
 date: 2014-01-22 20:25 +00:00
-tags: börse
+tags: Börse
 author: Claudia Hess
 ---
 
