@@ -6,3 +6,5 @@ author: Nicole Schulthess
 ---
 
 Für das Jugendfest am 27.Juni benötigen wir für verschiedene Attraktionen und Zeiten HelferInnen. Der [Einsatzplan](/download/news/JuFe_Einsatzplan_2015.pdf) zeigt die Optionen. Nicole Schulthess nimmt unter [schule@evk-faz.ch](mailto:schule@evk-faz.ch) gerne und ab sofort Anmeldungen entgegen.
+
+WIR HABEN ALLE HELFER ZUSAMMEN, BITTE NICHT MEHR ANMELDEN! - Besten Dank
