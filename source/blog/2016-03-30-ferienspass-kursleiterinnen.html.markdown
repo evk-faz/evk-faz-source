@@ -1,5 +1,5 @@
 ---
-title: Ferienspass-KursleiterInnen
+title: FerienSpass 2016
 date: 2016-03-30 09:05 +02:00
 tags: FerienSpass
 author: Nicole
