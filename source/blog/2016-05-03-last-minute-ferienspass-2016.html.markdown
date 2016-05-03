@@ -1,5 +1,5 @@
 ---
-title: Last-Minute-FerienSpass-2016
+title: Last Minute FerienSpass 2016
 date: 2016-05-03 13:06 +02:00
 tags: FerienSpass
 author: Manuela
